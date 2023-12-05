@@ -1,0 +1,13 @@
+select = ["ALL"]
+line-length = 120
+
+[lint]
+select = [
+    # Pyflakes
+    "F",
+    # Pycodestyle
+    "E",
+    "W",
+    # isort
+    "I",
+]
